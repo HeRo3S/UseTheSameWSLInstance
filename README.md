@@ -15,8 +15,8 @@ Start by exiting WSL and heading to PowerShell.
 
 Run the following, modifying any path or names you want:
 
-# Modify this next line if you'd like to use a different location
 ```sh
+# Modify this next line if you'd like to use a different location
 $WSL_BASE = "C:\WSL"
 wsl -l -v # Confirm the distribution name and adjust next line if needed
 $WSL_ORIGINAL_NAME = "Ubuntu"
